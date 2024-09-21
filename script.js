@@ -58,7 +58,6 @@ let n = +prompt();
 let i = 0;
 let j = 0;
 
-debugger;
 if (n % 2 === 0 && !Math.floor(n / 10)) {
 	i += 1;
 }
