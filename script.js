@@ -29,43 +29,43 @@ if (monthOrYear === 'month') {
 
 // 3
 
-// let a = +prompt();
-// b = +prompt();
-// c = +prompt();
-// let numberOfNegatives = 0;
-// if (a < 0) {
-// 	numberOfNegatives++;
-// }
-// if (b < 0) {
-// 	numberOfNegatives++;
-// }
-// if (c < 0) {
-// 	numberOfNegatives++;
-// }
+let a = +prompt();
+b = +prompt();
+c = +prompt();
+let numberOfNegatives = 0;
+if (a < 0) {
+	numberOfNegatives++;
+}
+if (b < 0) {
+	numberOfNegatives++;
+}
+if (c < 0) {
+	numberOfNegatives++;
+}
 
-// if (a === 0 || b === 0 || c === 0) {
-// 	console.log('unsigned');
-// } else if (numberOfNegatives % 2 === 0) {
-// 	console.log('+');
-// } else {
-// 	console.log('-');
-// }
+if (a === 0 || b === 0 || c === 0) {
+	console.log('unsigned');
+} else if (numberOfNegatives % 2 === 0) {
+	console.log('+');
+} else {
+	console.log('-');
+}
 
 // 4
 
-// let n = +prompt();
+let n = +prompt();
 
-// let i = 0;
-// let j = 0;
+let i = 0;
+let j = 0;
 
-// debugger;
-// if (n % 2 === 0 && !Math.floor(n / 10)) {
-// 	i += 1;
-// }
-// if (n % 3 === 0 && n % 10 === 1) {
-// 	j += 1;
-// }
-// console.log(i);
-// console.log(j);
+debugger;
+if (n % 2 === 0 && !Math.floor(n / 10)) {
+	i += 1;
+}
+if (n % 3 === 0 && n % 10 === 1) {
+	j += 1;
+}
+console.log(i);
+console.log(j);
 
 // 5
